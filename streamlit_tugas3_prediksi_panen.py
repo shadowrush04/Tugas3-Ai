@@ -113,7 +113,7 @@ st.write(f"""
 ### Kesimpulan Model:
 - Kualitas Model: **{kualitas}**
 - Model mampu menjelaskan sekitar **{round(r2*100,1)}%** data
-- Rata-rata error: **{round(mae,2)} ton/ha**
+- Rata-rata meleset antara prediksi dan aktual: **{round(mae,2)} ton/ha**
 
 ### Insight Data:
 - Faktor paling berpengaruh: **{fitur_terpenting}**
